@@ -34,5 +34,6 @@ public class UserController {
     public String deleteUser(@PathVariable("user_id") long id){
         userService.deleteUser(id);
         return "Deleted Successfully.";
+        System.out.println("successful");
     }
     }
